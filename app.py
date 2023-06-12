@@ -1,4 +1,4 @@
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.text_splitter import CharacterTextSplitter
@@ -10,7 +10,7 @@ from langchain.llms import OpenAI
 
 def main():
     # load the .env file
-#     load_dotenv()
+    load_dotenv()
 
     # set up the user interface.
     st.set_page_config(page_title="Ask your pdf")
