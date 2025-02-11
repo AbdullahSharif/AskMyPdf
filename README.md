@@ -1,5 +1,5 @@
 # AskMyPdf
-A python app built with langchain that allows you to upload a pdf and ask different questions from it.
+A python app built with langchain, which utilizes RAG approach to allow you to upload a pdf and ask different questions from it.
 
 
 ![Screenshot (72)](https://github.com/AbdullahSharif/AskMyPdf/assets/119653704/7a2575e6-6bac-49cb-8bba-3653421fc787)
